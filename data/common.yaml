@@ -1,0 +1,16 @@
+---
+docker::docker_users:
+  - vagrant
+
+profile::base::packages:
+  - jq
+  - apt-transport-https
+  - ipset
+  - curl
+  - ipvsadm
+  - bash-completion
+
+profile::base::hosts:
+  k8s-master-1: 192.168.205.10
+  k8s-node-1: 192.168.205.11
+  k8s-node-2: 192.168.205.12

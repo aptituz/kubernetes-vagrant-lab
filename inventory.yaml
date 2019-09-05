@@ -1,0 +1,14 @@
+---
+groups:
+  - name: k8s-cluster
+    nodes:
+      - 192.168.205.10
+      - 192.168.205.11
+      - 192.168.205.12
+  - name: k8s-masters
+    nodes:
+      - 192.168.205.10
+  - name: k8s-workers
+    nodes:
+      - 192.168.205.11
+      - 192.168.205.12
