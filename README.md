@@ -28,7 +28,7 @@ This should create the following machines:
 |---------------|----------------|
 | k8s-master-1  | 192.168.205.10 |
 | k8s-node-1    | 192.168.205.11 |
-| k8s-node-2    | 192.168.205.11 |
+| k8s-node-2    | 192.168.205.12 |
 
 The vagrant file will copy the ssh-key from `~/.ssh/id_rsa.pub` to the `authorized_keys`
 so you should be able to ssh into the machines right away:
